@@ -10,7 +10,7 @@ export default function Cart() {
   const dispatch = useDispatch();
   const add =cart.map((i)=>i.quantity*i.price);
 const a=add.reduce((ab,cu)=>ab+cu,0)
-
+ 
 console.log(a,'a')
   const desc =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eius veritatis deserunt enim quos qui ipsa vitae earum, saepe amet explicabo illo expedita quidem esse officia? Modi repudiandae odio at.";
